@@ -24,6 +24,7 @@ module.exports = {
         'src/components/content/*.js',
         'src/components/sidenav/*.js',
         'src/components/checkbox/*.js',
+        'src/components/toast/*.js',
         'src/components/toolbar/*.js',
         'src/core/**/*.js',
         '!src/**/*.spec.js'
@@ -70,6 +71,7 @@ module.exports = {
         'src/components/content/*.scss',
         'src/components/sidenav/*.scss',
         'src/components/checkbox/*.scss',
+        'src/components/toast/*.scss',
         'src/components/toolbar/*.scss',
         'src/core/services/**/*.scss'
     ],

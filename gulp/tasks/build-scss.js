@@ -18,7 +18,6 @@ var args = util.args;
 var IS_DEV = require('../const').IS_DEV;
 
 exports.task = function() {
-  console.log('asdasdasdasd as d');
   var streams = [];
   var modules   = args['modules'],
       overrides = args['override'],
