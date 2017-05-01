@@ -20,7 +20,7 @@ module.exports = {
         'src/components/progressLinear/*.js',
         'src/components/dialog/*.js',
         'src/components/icon/*.js',
-        'src/components/menu/*.js',
+        'src/components/menu/**/*.js',
         'src/components/content/*.js',
         'src/components/sidenav/*.js',
         'src/components/checkbox/*.js',
