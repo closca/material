@@ -12,6 +12,7 @@ module.exports = {
         'src/core/**/*.js'
     ],
     jsFiles: [
+        'src/components/backdrop/*.js',
         'src/components/button/*.js',
         'src/components/card/*.js',
         'src/components/tabs/*.js',
@@ -57,6 +58,7 @@ module.exports = {
         'src/core/services/layout/layout-attributes.scss'
     ],
     scssPaths: [
+        'src/components/backdrop/*.scss',
         'src/components/button/*.scss',
         'src/components/card/*.scss',
         'src/components/tabs/*.scss',
