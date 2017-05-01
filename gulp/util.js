@@ -42,7 +42,7 @@ exports.args = args;
  * @param {boolean} isRelease Whether to build in release mode.
  */
 function buildJs () {
-  var jsFiles = config.jsBaseFiles.concat([path.join(config.paths, '*.js')]);
+  var jsFiles = config.jsBaseFiles.concat(config.jsFiles);
 
   gutil.log("building js files...");
 

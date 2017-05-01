@@ -18,6 +18,7 @@ var args = util.args;
 var IS_DEV = require('../const').IS_DEV;
 
 exports.task = function() {
+  console.log('asdasdasdasd as d');
   var streams = [];
   var modules   = args['modules'],
       overrides = args['override'],
@@ -112,7 +113,7 @@ exports.task = function() {
         return 'src/components/' + module + '/*.scss';
       }));
     } else {
-      paths.push('src/components/**/*.scss');
+      paths = paths.concat(config.scssPaths);
       paths.push('src/core/services/layout/**/*.scss');
     }
     overrides && paths.unshift(overrides);
